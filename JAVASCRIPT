@@ -81,7 +81,7 @@ let Snake = {
 	        Snake.ctx.fillRect(x*size, y*size, size, size);
 		},
 		score: () => {
-			let score = "Rezultat: " + Snake.score;
+			let score = "Score: " + Snake.score;
 	        Snake.ctx.fillStyle = '#252F52';
 	        Snake.ctx.fillText(score, 200, Snake.height-5);
 		},
